@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../image/JavaLogo.png");
+    background-position: center;
+}
+
+nav {
+    background-color: #a9a9a966;
+    color: black;
+}
+
+nav>ul {
+    list-style-type: none;
+}
+
+nav>ul>li {
+    display: inline-block;
+    text-align: center;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+nav>ul>li:hover {
+    background-color: #a9a9a9aa;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 14px;
+    color: #00ff00;
+}

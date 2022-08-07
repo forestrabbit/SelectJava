@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Select Jdk</title>
+        <link rel="stylesheet" href="css/showArea.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="icon" type="image/x-icon" href="image/favicon.png" />
+        <script>
+            var inInit = false
+        </script>
+        <script src="js/init.js"></script>
+        <script src="js/makeUI.js"></script>
+        <script src="js/submit.js"></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li onclick="addJdk()">Select Jdk</li>
+                <li onclick="addRoot()">Add Java Root</li>
+                <li onclick="addSelectedRoots()">Delete Java Root</li>
+            </ul>
+        </nav>
+        <section class="main">
+            <header>Search and select jdk in your computer</header>
+            <ul></ul>
+            <div class="button">Submit</div>
+        </section>
+        <script>
+            setInterval(firstInUse, 100)
+            addJdk()
+        </script>
+    </body>
+</html>
